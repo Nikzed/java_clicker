@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JavaClicker</string>
+    <string name="coins">Coins: </string>
+</resources>
