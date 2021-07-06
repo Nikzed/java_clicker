@@ -44,11 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 count++;
                 text.setText("Coins: " + count);
 
-//                if (scale.isRunning()){
-//                    scale.cancel();
-//                    scale.end();
-//                    scale.removeAllListeners();
-//                }
                 scale.setDuration(150);
                 scale.setRepeatCount(ObjectAnimator.RESTART);
                 scale.setRepeatMode(ObjectAnimator.REVERSE);
